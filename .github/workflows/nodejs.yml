@@ -5,10 +5,10 @@ name: jscpd CI
 on:
   push:
     branches:
-      - master-v4
+      - validate/html-runtime-dependency
   pull_request:
     branches:
-      - master-v4
+      - validate/html-runtime-dependency
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
